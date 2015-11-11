@@ -1,0 +1,484 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Mate",
+				"Material-Theme"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "del",
+		"selected_items":
+		[
+			[
+				"del",
+				"ANF: Delete Current File"
+			],
+			[
+				"sftp",
+				"SFTP: Sync Both Directions…"
+			],
+			[
+				"upla",
+				"SFTP: Upload File"
+			],
+			[
+				"ren",
+				"ANF: Rename File"
+			],
+			[
+				"sftp b",
+				"SFTP: Browse Server…"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				"ftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ftps",
+				"FTPSync: Browse"
+			],
+			[
+				"dele",
+				"ANF: Delete File"
+			],
+			[
+				"ft",
+				"FTPSync: Browse"
+			],
+			[
+				"up",
+				"FTPSync: Upload current file"
+			],
+			[
+				"fpt",
+				"FTPSync: Setup FTPSync in this folder"
+			],
+			[
+				"renam",
+				"ANF: Rename File"
+			],
+			[
+				"new",
+				"ANF: New File"
+			],
+			[
+				":o",
+				":0 - BOF"
+			],
+			[
+				":wq",
+				"Laravel Artisan: Queue: Work"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"navba",
+				"Snippet: bs3-navbar-inverse"
+			],
+			[
+				"boot b",
+				"Snippet: bs3-button-toolbar"
+			],
+			[
+				"bootra",
+				"Snippet: bs3-block-button-primary"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"ht",
+				"HTMLBeautify"
+			],
+			[
+				"h",
+				"HTMLBeautify"
+			],
+			[
+				"encode",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"beaut",
+				"HTMLBeautify"
+			],
+			[
+				"",
+				"ANF: Delete File"
+			],
+			[
+				"laravael",
+				"Laravel Artisan: Make: Controller"
+			],
+			[
+				"laravel",
+				"Laravel Artisan: List"
+			],
+			[
+				"rena",
+				"ANF: Rename File"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"open file",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"tog",
+				"View: Toggle Status Bar"
+			],
+			[
+				"toggle st",
+				"View: Toggle Status Bar"
+			],
+			[
+				"langua",
+				"Dictionaries: Set Language"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"extract",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"pack reso",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 557.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			":w",
+			"ls",
+			"ls -al",
+			"ls",
+			"echo \"Hola mundo\";",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat"
+	],
+	"file_history":
+	[
+		"/Users/alfonso/Documents/Vexilo/Clientes/Suspendde/Sitios/clientes.suspendde.com/web/.git/info/exclude",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Suspendde/Sitios/clientes.suspendde.com/web/public_html/prueba.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Suspendde/Sitios/clientes.suspendde.com/web/sftp-config.json",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Suspendde/Sitios/clientes.suspendde.com/web/app/library/twilio-php/.gitignore",
+		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Suspendde/Sitios/clientes.suspendde.com/web/public_html/sftp-config.json",
+		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
+		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/suspendde",
+		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/User/FTPSync.sublime-settings",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Suspendde/Sitios/clientes.suspendde.com/web/ftpsync.settings",
+		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/User/ftpsync.settings",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Suspendde/Sitios/clientes.suspendde.com/web/public_html/ftpsync.settings",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Suspendde/Sitios/clientes.suspendde.com/web/public_html/dummy.php",
+		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/FTPSync/FTPSync.sublime-settings",
+		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Suspendde/Sitios/clientes.suspendde.com/web/prueba.php",
+		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Controllers/HolaController.php",
+		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/User/AdvancedNewFile.sublime-settings",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/public/index.php",
+		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/HolaMundoController2.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Controllers/HolaMundoController.php",
+		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/PackageResourceViewer/PackageResourceViewer.sublime-settings",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Controllers/TestController.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Controllers/NewController.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/composer.json",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Controllers/DocsController.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/routes.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/config/app.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/config/auth.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Requests/Request.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Providers/RouteServiceProvider.php",
+		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/Material Theme/Material-Theme-Darker.sublime-theme",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/laravel.lat.sublime-project",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Sublime/index.php"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".g",
+			"<li>\n			<a href=\"#\">Link</a>\n		</li>",
+			"<div class=\"btn-group\"></div>",
+			"<div class=\"btn-group\">Go</div>\n	<div class=\"btn-group\"></div>\n	<div class=\"btn-group\"></div>",
+			"<div class=\"btn-group\"></div>",
+			"always_show",
+			"always",
+			"side bar",
+			"open files",
+			"open_",
+			"__cont",
+			"37,43,57",
+			"33, 33, 33"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 70.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 180.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 174.0
+	},
+	"pinned_build_system": "",
+	"project": "laravel.lat.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"giti",
+				"app/library/twilio-php/.gitignore"
+			],
+			[
+				"prueb",
+				"public_html/prueba.php"
+			],
+			[
+				"routes",
+				"app/Http/routes.php"
+			],
+			[
+				"hola",
+				"app/Http/Controllers/HolaController.php"
+			],
+			[
+				"index",
+				"public/index.php"
+			],
+			[
+				"com",
+				"composer.json"
+			],
+			[
+				"docscon",
+				"app/Http/Controllers/DocsController.php"
+			],
+			[
+				"contro",
+				"app/Http/Controllers/DocsController.php"
+			],
+			[
+				"rout",
+				"app/Http/routes.php"
+			],
+			[
+				"auth",
+				"config/auth.php"
+			],
+			[
+				"control",
+				"app/Http/Controllers/DocsController.php"
+			],
+			[
+				"reques",
+				"app/Http/Requests/Request.php"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"routes.",
+				"app/Http/routes.php"
+			],
+			[
+				"routes.ph",
+				"app/Http/routes.php"
+			],
+			[
+				"",
+				"fdsafadsf dsafdsa"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
