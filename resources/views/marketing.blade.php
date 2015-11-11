@@ -163,12 +163,7 @@ Route::get('/user/{id}', function($id)
 		</a>
 	</section>
 
-	<section class="panel ecosystem light" id="ecosystem">
-		<h1>The Laravel Ecosystem</h1>
-		<p>Revolutionize how you build the web.</p>
-
-		<div class="forge contain">
-			<img src="/assets/img/forge-macbook.png" alt="Forge Dashboard" class="screenshot">
+	1<img src="/assets/img/forge-macbook.png" alt="Forge Dashboard" class="screenshot">
 			<div class="content">
 				<a href="https://forge.laravel.com">
 					<img src="/assets/img/forge-logo.png" alt="Forge">

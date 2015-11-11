@@ -40,6 +40,10 @@ class Documentation {
 	 */
 	public function getIndex($version)
 	{
+		// If the enviroment is local forget the cache
+		if(app()->environment()=='local'){
+			$this->cache->forget('docs.'.$version.'.index');
+		}
 		return $this->cache->remember('docs.'.$version.'.index', 5, function() use ($version) {
 			$path = base_path('resources/docs/'.$version.'/documentation.md');
 
@@ -60,6 +64,10 @@ class Documentation {
 	 */
 	public function get($version, $page)
 	{
+		// If the enviroment is local forget the cache
+		if(app()->environment()=='local'){
+			$this->cache->forget('docs.'.$version.'.'.$page);
+		}
 		return $this->cache->remember('docs.'.$version.'.'.$page, 5, function() use ($version, $page) {
 			$path = base_path('resources/docs/'.$version.'/'.$page.'.md');
 
@@ -104,11 +112,12 @@ class Documentation {
 	 */
 	public static function getDocVersions()
 	{
+		// For now i only want the 5.1 version of the Docs
 		return [
-			'master' => 'Master',
+			//'master' => 'Master',
 			'5.1' => '5.1',
-			'5.0' => '5.0',
-			'4.2' => '4.2',
+			//'5.0' => '5.0',
+			//'4.2' => '4.2',
 		];
 	}
 }
