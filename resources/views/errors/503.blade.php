@@ -34,7 +34,7 @@
 	<body>
 		<div class="container">
 			<div class="content">
-				<div class="title">Sitio en construcción. Espéralo muy pronto. :D</div>
+				<div class="title">Estamos en construcción</div>
 			</div>
 		</div>
 	</body>
