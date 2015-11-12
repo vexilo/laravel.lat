@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"utf",
+				"utf8_encode"
+			],
+			[
 				"Mate",
 				"Material-Theme"
 			]
@@ -19,10 +23,30 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "del",
+		"height": 84.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"new",
+				"ANF: New File"
+			],
+			[
+				"rena",
+				"ANF: Rename File"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"file",
+				"ANF: Delete File"
+			],
 			[
 				"del",
 				"ANF: Delete Current File"
@@ -42,10 +66,6 @@
 			[
 				"sftp b",
 				"SFTP: Browse Server…"
-			],
-			[
-				":",
-				":w - Save"
 			],
 			[
 				"ftp",
@@ -86,10 +106,6 @@
 			[
 				"renam",
 				"ANF: Rename File"
-			],
-			[
-				"new",
-				"ANF: New File"
 			],
 			[
 				":o",
@@ -154,10 +170,6 @@
 			[
 				"laravel",
 				"Laravel Artisan: List"
-			],
-			[
-				"rena",
-				"ANF: Rename File"
 			],
 			[
 				"packa",
@@ -232,17 +244,69 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat"
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/resources",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/resources/assets",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/resources/docs",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/resources/docs/5.1",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/resources/lang"
 	],
 	"file_history":
 	[
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/resources/docs/5.1/documentation.md",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/resources/docs/5.1/installation.md",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/resources/views/errors/503.blade.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/CustomParser.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Console/Kernel.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Console/Commands/Inspire.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Console/Commands/IndexDocumentation.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Commands/Command.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/Find Results",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/composer.json",
+		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/resources/views/marketing.blade.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/config/view.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/config/cache.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/.env",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/public/info.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/config/auth.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/config/app.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/resources/views/partials/main-nav.blade.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/resources/views/app.blade.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/vendor/symfony/dom-crawler/Crawler.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/bootstrap/app.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Services/Registrar.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Services/Documentation/Indexer.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Providers/RouteServiceProvider.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Providers/EventServiceProvider.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Providers/ConfigServiceProvider.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Providers/BusServiceProvider.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Providers/AppServiceProvider.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Requests/Request.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Middleware/VerifyCsrfToken.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Middleware/RedirectIfAuthenticated.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Middleware/Authenticate.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Kernel.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Controllers/WelcomeController.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Controllers/HomeController.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Controllers/DocsController.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/vendor/laravel/framework/src/Illuminate/Cache/Repository.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Controllers/Controller.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Exceptions/Handler.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Events/Event.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Documentation.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/routes.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/resources/views/docs/artisan.md",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/resources/views/docs/5.1/artisan.md",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/vendor/symfony/routing/Router.php",
+		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/public/prueba.php",
 		"/Users/alfonso/Documents/Vexilo/Clientes/Suspendde/Sitios/clientes.suspendde.com/web/.git/info/exclude",
 		"/Users/alfonso/Documents/Vexilo/Clientes/Suspendde/Sitios/clientes.suspendde.com/web/public_html/prueba.php",
 		"/Users/alfonso/Documents/Vexilo/Clientes/Suspendde/Sitios/clientes.suspendde.com/web/sftp-config.json",
 		"/Users/alfonso/Documents/Vexilo/Clientes/Suspendde/Sitios/clientes.suspendde.com/web/app/library/twilio-php/.gitignore",
 		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/User/SFTP.sublime-settings",
 		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/alfonso/Documents/Vexilo/Clientes/Suspendde/Sitios/clientes.suspendde.com/web/public_html/sftp-config.json",
 		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
 		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/suspendde",
@@ -265,33 +329,38 @@
 		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/PackageResourceViewer/PackageResourceViewer.sublime-settings",
 		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Controllers/TestController.php",
 		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Controllers/NewController.php",
-		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/composer.json",
-		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Controllers/DocsController.php",
-		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/routes.php",
-		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/config/app.php",
-		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/config/auth.php",
-		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Http/Requests/Request.php",
-		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/app/Providers/RouteServiceProvider.php",
 		"/Users/alfonso/Library/Application Support/Sublime Text 3/Packages/Material Theme/Material-Theme-Darker.sublime-theme",
 		"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/laravel.lat.sublime-project",
 		"/Users/alfonso/Documents/Vexilo/Clientes/Sublime/index.php"
 	],
 	"find":
 	{
-		"height": 32.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
 		"height": 158.0,
 		"where_history":
 		[
+			"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/",
+			"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/¡",
+			"/Users/alfonso/Documents/Vexilo/Clientes/Laravel/laravel.lat/resources/views/docs"
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"Be right back",
+			"Laravel.lat",
+			"text",
+			"filterX",
+			"prod",
+			"cache",
+			"Configuration",
+			"Installation",
+			"6.1",
 			".g",
 			"<li>\n			<a href=\"#\">Link</a>\n		</li>",
 			"<div class=\"btn-group\"></div>",
@@ -312,6 +381,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"App",
+			"Instalación"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -384,16 +455,120 @@
 		"selected_items":
 		[
 			[
+				"503",
+				"resources/views/errors/503.blade.php"
+			],
+			[
+				"instllatin",
+				"resources/docs/5.1/installation.md"
+			],
+			[
+				"docu",
+				"resources/docs/5.1/documentation.md"
+			],
+			[
+				"compo",
+				"composer.json"
+			],
+			[
+				"compos",
+				"composer.json"
+			],
+			[
+				"crawler",
+				"vendor/symfony/dom-crawler/Crawler.php"
+			],
+			[
+				"",
+				"app/Documentation.php"
+			],
+			[
+				"docscont",
+				"app/Http/Controllers/DocsController.php"
+			],
+			[
+				"installat",
+				"resources/docs/5.1/installation.md"
+			],
+			[
+				"repository",
+				"vendor/laravel/framework/src/Illuminate/Cache/Repository.php"
+			],
+			[
+				"docume",
+				"app/Documentation.php"
+			],
+			[
+				"cache",
+				"config/cache.php"
+			],
+			[
+				"docum",
+				"app/Documentation.php"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"app.p",
+				"config/app.php"
+			],
+			[
+				"bladecomp",
+				"vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php"
+			],
+			[
+				"view",
+				"config/view.php"
+			],
+			[
+				"app",
+				"config/app.php"
+			],
+			[
+				"documen",
+				"app/Documentation.php"
+			],
+			[
+				"docs",
+				"app/Http/Controllers/DocsController.php"
+			],
+			[
+				"docsco",
+				"app/Http/Controllers/DocsController.php"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"docscontroller",
+				"app/Http/Controllers/DocsController.php"
+			],
+			[
+				"partials/man",
+				"resources/views/partials/main-nav.blade.php"
+			],
+			[
+				"app.bla",
+				"resources/views/app.blade.php"
+			],
+			[
+				"routes",
+				"app/Http/routes.php"
+			],
+			[
+				"router",
+				"vendor/symfony/routing/Router.php"
+			],
+			[
 				"giti",
 				"app/library/twilio-php/.gitignore"
 			],
 			[
 				"prueb",
 				"public_html/prueba.php"
-			],
-			[
-				"routes",
-				"app/Http/routes.php"
 			],
 			[
 				"hola",
@@ -432,20 +607,12 @@
 				"app/Http/Requests/Request.php"
 			],
 			[
-				"route",
-				"app/Http/routes.php"
-			],
-			[
 				"routes.",
 				"app/Http/routes.php"
 			],
 			[
 				"routes.ph",
 				"app/Http/routes.php"
-			],
-			[
-				"",
-				"fdsafadsf dsafdsa"
 			]
 		],
 		"width": 0.0
@@ -475,7 +642,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 243.0,
 	"status_bar_visible": false,
 	"template_settings":
